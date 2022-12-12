@@ -4,8 +4,7 @@ class AddAttributesToUsers < ActiveRecord::Migration[6.1]
     add_column :users, :email, :string
     add_column :users, :password, :string
     add_column :users, :timestamps, :datetime
-    add_index :users, :username
-    add_index :users, :email
+ 
 
   end
 end
